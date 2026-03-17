@@ -17,5 +17,20 @@ public class Cidades {
         cidades.set(3, "Mirassol");
 
         System.out.println("Lista atualizada: " + cidades);
+
+        cidades.remove(1);
+        System.out.println(cidades);
+
+        System.out.println("Número de cidades: " + cidades.size());
+
+        System.out.println("Lista de Cidades com laço for:");
+        for (int i = 0 ; i < cidades.size(); i++) {
+            System.out.println(cidades.get(i));
+        }
+
+        System.out.println("Lista de Cidades com laço for-each:");
+        for (String cidade : cidades) {
+            System.out.println(cidade);
+        }
     }
 }
