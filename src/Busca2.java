@@ -13,7 +13,7 @@ public class Busca2 {
         for (int i = 0; i < n; i++) {
             double numero;
             while (true) {
-                System.out.println("Digite o número " + (i + 1) + ": ");
+                System.out.println("Digite o número " + (i + 1) + "º valor:");
                 numero = scanner.nextDouble();
 
                 if (i == 0 || numero >= vetor[i - 1]) { // Garante ordem crescente
